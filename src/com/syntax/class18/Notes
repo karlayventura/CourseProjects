@@ -1,0 +1,33 @@
+* TOPIC: ACCESS MODIFIERS
+
+-------- Access Modifiers --------
+- Are keywords in java that defines from where a certain variable, method or a class ect can be accessed.
+- There are 4 types of access in java that we can define using 3 keywords.
+
+-------- 4 Types of access --------
+1. Private = Accessed only in same class
+2. Default (Applied when no keyword is used) = Accessed only in same package
+3. Protected = Accessed only in
+4. Public = Accessed anywhere in same project
+
+-------- 3 Types of define keywords --------
+1. Private
+2. Protected
+3. Public
+
+-------- Definition of the 4 Access --------
+* private Access (keyword is private): * MOST RESTRICTED ACCESS *
+- When we use the private keyword with any of the variables, methods or classes
+  They can ONLY be accessed within that class.
+
+* Default Access (Applied when we don't use any keyword):
+- When we DONT use any of the keywords, default access is applied by java
+  to those variables methods or classes ect.
+  Which means these things can only be accessed from the same package.
+
+* Protected Access (We use the protected class):
+- When protected access is applied class members(Variables method ect) can be accessed
+  From other packages, But only in the classes that participate in inheritance.
+
+* Public Access (Public keyword):
+- Means class members and classes can be accessed from anywhere inside that project.
