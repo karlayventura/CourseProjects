@@ -6,8 +6,8 @@
 
 -------- 4 Types of access --------
 1. Private = Accessed only in same class
-2. Default (Applied when no keyword is used) = Accessed only in same package
-3. Protected = Accessed only in
+2. Default (Applied when no keyword is used) = Accessed ONLY from same package
+3. Protected = Accessed in same package
 4. Public = Accessed anywhere in same project
 
 -------- 3 Types of define keywords --------

@@ -1,0 +1,29 @@
+************ CONSTRUCTOR IN JAVA ************
+What is Constructor?:
+- A special block of code (Similar to  methods) that initialize
+  the objects of a class.
+
+* RULES:
+1) NAMING CONSTRUCTOR: MUST be same name of the class.
+2) RETURN TYPE: DO NOT have return/void types.
+3) NON ACCESS MODIFIERS: CAN NOT have non access modifiers like (static, final, ect)
+4) ACCESS MODIFIERS: Can use (public, private, protected) with constructors.
+5) DEFAULT CONSTRUCTOR: Applied by compiler, when we don't write a constructor in class.
+6) MULTIPLE CONSTRUCTORS: We can have in a class, but their number of arguments sequence of
+                          argument or type of argument should be different. ????
+7) If we have (multiple constructors) then java decides which constructor to call
+   based on the parameters we pass.
+
+*********** this. **********
+What is this.(keyword)
+- It is a reserved keyword, used to refer to instance variables, methods or constructors of a class.
+
+* USED:
+1) "this" keyword is used to distinguish(difference) instance variables with local variables.
+2) We can use "this" keyword to call the constructor of a class inside another constructor.
+3) We can use "this" keyword to call the methods of a class
+* Can be used : this(name, color, age);
+
+* RULES:
+1) this() should be the first line inside a constructor
+2) this() CAN NOT be used inside method.

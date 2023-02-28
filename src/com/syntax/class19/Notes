@@ -1,0 +1,5 @@
+* TOPIC: CONSTRUCTOR
+
+------------ Constructor in java -------------
+- Allows us to set the values of the fields of a class.
+- Is a Block of code (similar to method, but NOT a method)
