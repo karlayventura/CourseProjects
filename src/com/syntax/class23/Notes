@@ -1,0 +1,6 @@
+* TOPIC : Method overriding
+
+- Method overriding happens when we have same name methods in the parent class & child class
+- We can only override a method if we have inheritance relationship between 2 classes.
+- We cant override the private methods because they dont participate in inheritance.
+- We cant override the constructors because they dont participate in inheritance.

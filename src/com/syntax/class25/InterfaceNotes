@@ -1,0 +1,16 @@
+* Interface in java *
+
+* Interface:
+- Are also used to achieve abstraction in java.
+- We can create an interface with keyword interface.
+
+Example: Interface Class
+interface Human{
+public static int legs=2;
+// methods = abstract
+public abstract void walk();
+// regular
+public void eat(){
+
+}
+}

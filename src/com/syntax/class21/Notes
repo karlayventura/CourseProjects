@@ -1,0 +1,25 @@
+TOPIC : super keyword
+
+* What is super.(keyword)?
+- Is like "this." (keyword), but it refers to the parent class object.
+- We can use the super keyword in 3 different way.
+
+* 3 Ways to use super keywords.
+1) Used To access the super class variables,
+   if we have same named variables in super class and base class
+
+2) If we have same method names in parent & child class,
+   we can use the super keyword to access the parent class method,
+   otherwise by default java refers to child class methods.
+
+3) As constructor DO NOT participate in inheritance,
+   we can use super() to call the constructors from the parent class.
+
+* RULES:
+1) If we have a constructor in the parent class that takes 2 argument
+   we must have a constructor inside the child class that at least takes those 2 arguments.
+
+2) We cant use this() & super() inside the same constructor.
+
+3) super can't be used in static methods.
+

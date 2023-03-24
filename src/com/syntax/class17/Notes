@@ -1,9 +1,9 @@
 * TOPIC: Types of Variables
 
 ------ 3 Types of variables -----
-1. Local Variable = A variable is inside a method, loop, switch or any other block of code.
-2. Instance Variable = A variable outside a method but inside a class
-3. Static Variable = A variable outside a method but inside a class and Has static keyword with it.
+1. Local Variable = Is inside a method/block of code.
+2. Instance Variable = Is inside a class but outside a method
+3. Static Variable = Is inside a class with static keyword with it but outside a method.
 
 ------------ Example ---------------
 

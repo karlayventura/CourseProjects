@@ -1,0 +1,17 @@
+*** Method overloading in java ***
+-  When same method name exists in a class but with different numbers of parameters
+   or different data type of parameters or different sequence of parameters.
+
+* ADVANTAGES of method overloading:
+- Flexibility of having same name methods in a class.
+- End user gets the benefits that he/she does not need to remember different method names.
+
+* RULES:
+- We can overload the constructors
+- We can overload the static methods as well
+- We can overload the main method as well
+
+* RULES for static methods:
+- Static methods can't access instance fields directly
+- Instance methods can access instance as well static fields directly
+

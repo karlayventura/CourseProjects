@@ -1,0 +1,23 @@
+* TOPIC : Method Overloading in java
+
+* What is Method Overloading?
+- If we have same named methods in a class with different number of parameters or
+  different sequence of parameters or different data types of the parameters
+  it is called = Method overloading
+
+* EXAMPLE:
+class calculator{
+
+add (int number, int number2){
+}
+
+add (int number, double number2){
+}
+
+add (double number, double number2){
+}
+
+add (int number, int number2,int number3){
+}
+
+}
